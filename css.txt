@@ -1,0 +1,35 @@
+			           CSS Assignment
+
+1.Explain the basic rules of css specificity
+a. Equal specificity: the latest rule counts - If the same rule is written twice into the external style sheet,
+ then the lower rule in the style sheet is closer to the element to be styled, and therefore will be applied.
+
+b. ID selectors have a higher specificity than attribute selectors 
+
+c. Contextual selectors are more specific than a single element selector
+
+d. A class selector beats any number of element selectors
+
+e. The universal selector and inherited values have a specificity of 0 - *, body * and similar have a zero specificity. 
+   Inherited values also have a specificity of 0.
+
+2. Explain the three main ways to apply CSS styles to a web page.
+
+a. Inline styles: An inline style may be used to apply a unique style for a single element.
+To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+ 
+b. Internal styles: An internal style sheet may be used if one single HTML page has a unique style.
+The internal style is defined inside the <style> element, inside the head section.
+
+c. External styles:  With an external style sheet, you can change the look of an entire website by changing just one file!
+Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+
+3. Explain the three main ways to target elements
+
+ a. Type selector: Selecting an element by its HTML tag is the most obvious way. Including parent elements in the selector increases specificity.
+
+ b. ID selector: The id selector uses the id attribute of an HTML element to select a specific element. The id of an element is unique within a page, so the id selector is used to select one unique element!
+   To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+
+ c. Class selector: The class selector selects HTML elements with a specific class attribute. To select elements with a specific class, write a period (.) character, followed by the class name.
+
